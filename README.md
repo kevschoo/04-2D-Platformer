@@ -4,6 +4,8 @@
 Project for MSCH-C220, 3/27/2021
 
 A simple 2D platforming game where you avoid enemies and collect coins.
+Level 1 is a plains looking biome.
+Level 2 is a snowy and lava filled biome with a castle.
 
 ## Implementation
 Built using Godot 3.2.3
@@ -16,7 +18,7 @@ Health, Score, and current level at the top of the screen.
 WASD, ESC are the controls.
 Save feature. Saves which enemies, coins, and level you are on.
 Load feature. Uses saved data to reload a level. Puts you at the beggining.
-
+When you lose all your hp you respawn with 50 health and -10 points.
 All sprites made by me.
 
 ## References
